@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 100px auto;
+  width: 100%;
+  max-width: 300px;
+  padding: 0 15px;
+}
+
+.input-wrapper {
+  margin-bottom: 15px;
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.input-wrapper input,
+.input-wrapper select {
+  width: 100%;
+  padding: 10px 15px;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+p {
+  padding-top: 25px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-top: 1px solid #bbbbbb;
+}

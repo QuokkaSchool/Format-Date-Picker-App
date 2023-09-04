@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pobieranie daty i wyświetlanie w formacie</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-wrapper">
+        <label for="input-data">Podaj datę</label>
+        <input id="input-data" type="date" />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="select-format">Wybierz format daty</label>
+        <select id="select-format">
+          <option value="">Formatuj datę</option>
+          <option value="format1">DD/MM/RRRR</option>
+          <option value="format2">DD-MM-RRRR</option>
+          <option value="format3">DD.MM.RRRR</option>
+          <option value="format4">DD miesiąc RRRR</option>
+        </select>
+      </div>
+
+      <button id="btn-format">Formatuj</button>
+
+      <p id="result-date"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
